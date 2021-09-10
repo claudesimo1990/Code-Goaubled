@@ -3,7 +3,7 @@
 
         <div id="logo" class="pull-left">
             <h1>
-                <a href="{{route('accueil')}}" class="scrollto">Go<span>AuBled</span></a>
+                <a href="{{route('accueil')}}" class="scrollto">colis<span>Send</span></a>
             </h1>
         </div>
 
