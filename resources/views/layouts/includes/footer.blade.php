@@ -11,7 +11,7 @@
           <div class="col-md-3 col-lg-4 col-xl-3 mb-4 pt-3">
 
             <!-- Content -->
-            <h6 class="text-uppercase font-weight-bold">Go Au Bled</h6>
+            <h6 class="text-uppercase font-weight-bold">ColisSend</h6>
             <hr class="teal accent-3 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>{{  footerText() }}</p>
           </div>
@@ -81,7 +81,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center text-black py-3">© 2020 Copyright:
-        <a class="dark-grey-text" href="{{ route('accueil') }}">www.goaubled.com</a> |
+        <a class="dark-grey-text" href="{{ route('accueil') }}">www.colisSend.com</a> |
         <a class="dark-grey-text" href="{{ route('impressum') }}">Impressum</a> | <a class="dark-grey-text" href="{{ route('agb') }}">AGB</a>
     </div>
     <!-- Copyright -->
