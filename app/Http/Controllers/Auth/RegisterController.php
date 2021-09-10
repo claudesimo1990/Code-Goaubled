@@ -73,7 +73,7 @@ class RegisterController extends Controller
     {
         $imagePath = 'default.jpg';
 
-        event(new Registered($data));
+        //event(new Registered($data));
 
         return User::create([
             'name' => $data['name'],
