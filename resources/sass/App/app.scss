@@ -166,7 +166,6 @@ h2 {
     bottom:-24px;
     width:0;
     height:0;
-    border:15px solid transparent;
     border-width:12px 15px;
     border-top-color:#fff;
 }
@@ -197,4 +196,11 @@ h2 {
     float:left;
     margin-right:12px;
     margin-top:-5px;
+}
+
+.bg-howitwork-icon {
+    background-color: $quigo;
+    svg {
+        color: white;
+    }
 }

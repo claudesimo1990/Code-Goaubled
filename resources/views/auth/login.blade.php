@@ -13,7 +13,7 @@
                     <div class="col-md-7 bg-poster">
                         <div class="card-body">
                             <div class="brand-wrapper">
-                                <h4><a href="{{route('accueil')}}" class="scrollto">Go<span>AuBled</span></a> -
+                                <h4><a href="{{route('accueil')}}" class="scrollto">Colis<span>send</span></a> -
                                     Connexion</h4>
                             </div>
                             <div class="login-card-footer-nav block-media-login my-4">

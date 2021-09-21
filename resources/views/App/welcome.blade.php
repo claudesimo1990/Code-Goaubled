@@ -24,12 +24,12 @@ GO AU BLED est une page mettant en relation les personnes de différentes commun
 
     </x-about-us>
 
-    <how-work :steps="{{ $steps }}" more-link="{{ route('howItWork') }}"></how-work>
+    <x-howitwork></x-howitwork>
 
     <destinations :destinations="{{ $destinations }}"></destinations>
 
     <x-testimonial>
-        <div class="row people">
+        <div class="row people my-5 py-4">
             @foreach($testimonials as $item)
 
                 <div class="col-md-6 col-lg-4 item">

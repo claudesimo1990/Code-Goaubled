@@ -13,9 +13,11 @@
                         <div class="card-body">
 
                             <div class="brand-wrapper mb-2">
-                                <h4><a href="{{route('accueil')}}" class="scrollto">Go<span>AuBled</span></a> - Inscription</h4>
+                                <h4><a href="{{route('accueil')}}" class="scrollto">Colis<span>send</span></a> - Inscription</h4>
                             </div>
                             {!! Form::model(['method' => 'POST', 'route' => ['register'], 'files' => true]) !!}
+
+                           {{ Form::token() }}
 
                             <div class="form-group row">
                                 {!! Form::label('name', 'Nom', ['class' => 'col-sm-2 col-form-label']) !!}

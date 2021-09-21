@@ -13,7 +13,8 @@
             <!-- Content -->
             <h6 class="text-uppercase font-weight-bold">ColisSend</h6>
             <hr class="teal accent-3 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>{{  footerText() }}</p>
+            <p>Colissend, est une initiative personnelle permettant aux personnes de pouvoir echanger
+            des prestations de façon fiable et professionelle.</p>
           </div>
           <!-- Grid column -->
 
