@@ -57,6 +57,18 @@
                                 </div>
                             </div>
 
+                            <div class="form-group row">
+                                {!! Form::label('password_confirmation', 'Mot de passe de confirmation', ['class' => 'col-sm-12 col-form-label']) !!}
+
+                                <div class="col-sm-12">
+                                    {!! Form::password('password_confirmation', ['class' => 'form-control' . ($errors->has('password') ? ' is-invalid' : ''), 'placeholder' => 'Password', 'required']) !!}
+
+                                    @error('password_confirmation')
+                                    <span class="invalid-feedback">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                            </div>
+
                             <div class="form-group">
                                 {!! Form::submit('Creer votre compte', ['class' => 'btn text-white btn-recherche']) !!}
                             </div>
