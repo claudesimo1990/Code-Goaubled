@@ -25,7 +25,7 @@
                                 {!! Form::label('name', 'Nom', ['class' => 'col-sm-2 col-form-label']) !!}
 
                                 <div class="col-sm-12">
-                                    {!! Form::text('name', null, ['class' => 'form-control' . ($errors->has('name') ? ' is-invalid' : ''), 'placeholder' => 'Nom', 'required']) !!}
+                                    {!! Form::text('name', 'Nom', ['class' => 'form-control' . ($errors->has('name') ? ' is-invalid' : ''), 'placeholder' => 'Nom', 'required']) !!}
 
                                     @error('name')
                                     <span class="invalid-feedback">{{ $message }}</span>
@@ -37,7 +37,7 @@
                                 {!! Form::label('email', 'Email', ['class' => 'col-sm-12 col-form-label']) !!}
 
                                 <div class="col-sm-12">
-                                    {!! Form::email('email', null, ['class' => 'form-control' . ($errors->has('email') ? ' is-invalid' : ''), 'placeholder' => 'Email Adresse', 'required']) !!}
+                                    {!! Form::email('email', 'Email', ['class' => 'form-control' . ($errors->has('email') ? ' is-invalid' : ''), 'placeholder' => 'Email Adresse', 'required']) !!}
 
                                     @error('email')
                                     <span class="invalid-feedback">{{ $message }}</span>
