@@ -10,7 +10,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="@yield('keywords')" name="keywords">
     <meta content="@yield('description')" name="description">
-    <link rel="icon" type="image/png" href="{{ asset('/img/cube-outline.svg') }}"/>
+    <link rel="icon" type="image/png" href="{{ asset('/img/cube-outline.svg') }}"></link>
 
     <link href="{{ asset('/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
 

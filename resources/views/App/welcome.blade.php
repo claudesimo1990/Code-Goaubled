@@ -2,7 +2,7 @@
 
 
 @section('description')
-GO AU BLED est une page mettant en relation les personnes de différentes communautés de l’Afrique comme de sa diaspora dans le but de transporter des colis et courriers destinés à leurs proches de partout dans le monde
+Colissend est une page mettant en relation les personnes de différentes communautés de l’Afrique comme de sa diaspora dans le but de transporter des colis et courriers destinés à leurs proches de partout dans le monde
 @endsection
 
 @section('content')
