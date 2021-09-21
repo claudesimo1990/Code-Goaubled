@@ -17,6 +17,8 @@
                             </div>
                             {!! Form::model(['method' => 'POST', 'route' => ['register'], 'files' => true]) !!}
 
+                            @csrf
+
                            {{ Form::token() }}
 
                             <div class="form-group row">
