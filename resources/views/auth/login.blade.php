@@ -36,7 +36,7 @@
                                 <div class="form-group mb-4">
                                     <label for="password" class="sr-only">Password</label>
                                     <input type="password" name="password" id="password" class="form-control"
-                                           placeholder="***********">
+                                           placeholder="***********" autocomplete="off">
                                     @error('password')<span class="error small">{{ $message }}</span>@enderror
                                 </div>
                                 <input name="login" id="login" class="btn btn-block login-btn mb-4 bg-dark text-white"
