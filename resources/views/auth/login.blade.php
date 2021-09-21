@@ -28,9 +28,9 @@
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
                                 <div class="form-group">
-                                    <label for="email" class="sr-only">{{ __('E-Mail Address') }}</label>
-                                    <input type="email" name="email" id="email" class="form-control"
-                                           placeholder="Email address">
+                                    <label for="myemail" class="sr-only">{{ __('email adresse') }}</label>
+                                    <input type="email" name="email" id="myemail" class="form-control"
+                                           placeholder="Email adresse">
                                     @error('email')<span class="error small">{{ $message }}</span>@enderror
                                 </div>
                                 <div class="form-group mb-4">
@@ -75,7 +75,7 @@
 
                         <div class="form-group row">
                             <label for="email"
-                                   class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                                   class="col-md-4 col-form-label text-md-right">{{ __('email adresse') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror"
