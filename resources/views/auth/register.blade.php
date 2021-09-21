@@ -25,7 +25,7 @@
                                 {!! Form::label('name', 'Nom', ['class' => 'col-sm-2 col-form-label']) !!}
 
                                 <div class="col-sm-12">
-                                    {!! Form::text('name', 'Nom', ['class' => 'form-control' . ($errors->has('name') ? ' is-invalid' : ''), 'placeholder' => 'Nom', 'required']) !!}
+                                    {!! Form::text('name', 'Nom', ['class' => 'form-control' . ($errors->has('name') ? ' is-invalid' : ''), 'placeholder' => 'Nom','autocomplete'=> 'off', 'required']) !!}
 
                                     @error('name')
                                     <span class="invalid-feedback">{{ $message }}</span>
@@ -37,7 +37,7 @@
                                 {!! Form::label('email', 'Email', ['class' => 'col-sm-12 col-form-label']) !!}
 
                                 <div class="col-sm-12">
-                                    {!! Form::email('email', 'Email', ['class' => 'form-control' . ($errors->has('email') ? ' is-invalid' : ''), 'placeholder' => 'Email Adresse', 'required']) !!}
+                                    {!! Form::email('email', 'Email', ['class' => 'form-control' . ($errors->has('email') ? ' is-invalid' : ''), 'autocomplete'=> 'off', 'placeholder' => 'Email Adresse', 'required']) !!}
 
                                     @error('email')
                                     <span class="invalid-feedback">{{ $message }}</span>
@@ -49,7 +49,7 @@
                                 {!! Form::label('password', 'Password', ['class' => 'col-sm-12 col-form-label']) !!}
 
                                 <div class="col-sm-12">
-                                    {!! Form::password('password', ['class' => 'form-control' . ($errors->has('password') ? ' is-invalid' : ''), 'placeholder' => 'Password', 'required']) !!}
+                                    {!! Form::password('password', ['class' => 'form-control' . ($errors->has('password') ? ' is-invalid' : ''), 'placeholder' => 'Password','autocomplete'=> 'off', 'required']) !!}
 
                                     @error('password')
                                     <span class="invalid-feedback">{{ $message }}</span>
@@ -61,7 +61,7 @@
                                 {!! Form::label('password_confirmation', 'Mot de passe de confirmation', ['class' => 'col-sm-12 col-form-label']) !!}
 
                                 <div class="col-sm-12">
-                                    {!! Form::password('password_confirmation', ['class' => 'form-control' . ($errors->has('password') ? ' is-invalid' : ''), 'placeholder' => 'Password', 'required']) !!}
+                                    {!! Form::password('password_confirmation', ['class' => 'form-control' . ($errors->has('password') ? ' is-invalid' : ''), 'placeholder' => 'Password','autocomplete'=> 'off', 'required']) !!}
 
                                     @error('password_confirmation')
                                     <span class="invalid-feedback">{{ $message }}</span>
