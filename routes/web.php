@@ -5,6 +5,7 @@ use App\Http\Controllers\Booking\PayPalPaymentController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SocialMediaAuthController;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 //pages

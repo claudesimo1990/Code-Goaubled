@@ -32,7 +32,7 @@ class SendEmailWelcomeNotification
      */
     public function handle(Registered $event)
     {
-        $this->beautify->send('emails.welcome', ['name' => $event->data['name']], function($message) use ($event) {
+        $this->beautify->send('emails.welcome', ['route' => route('accueil'), 'name' => $event->data['name']], function($message) use ($event) {
             $message
                 ->from('team@goaubled.com')
                 ->to($event->data['email'], $event->data['name'])

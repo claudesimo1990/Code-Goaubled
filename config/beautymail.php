@@ -18,7 +18,7 @@ return [
     ],
 
     'view' => [
-        'senderName'  => 'goaubled',
+        'senderName'  => 'Colissend',
         'reminder'    => null,
         'unsubscribe' => null,
         'address'     => null,

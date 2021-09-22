@@ -37,7 +37,7 @@ class userMessageSend
         $this->beautify->send('emails.userMessage', ['name' => $event->data['name'], 'content' => $event->data['content']], function($message) use ($event) {
             $message
                 ->from($event->data['email'])
-                ->to('team@goaubled.com', 'goaubled, team')
+                ->to('team@colissend.sim-web.de', 'Colissend, team')
                 ->subject('Nouveau message Utilisateur');
         });
 
